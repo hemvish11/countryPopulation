@@ -9,8 +9,10 @@ const App: React.FC = () => {
   return (
     <>
       <div>
-        <PreviousBtn isClicked={isClicked} setIsClicked={setIsClicked} />
-        <BarChart isClicked={isClicked} setIsClicked={setIsClicked} />
+        {isClicked && <PreviousBtn isClicked={isClicked} setIsClicked={setIsClicked} />}
+        <div className="chart">
+          <BarChart isClicked={isClicked} setIsClicked={setIsClicked} />
+        </div>
       </div>
     </>
   );

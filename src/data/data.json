@@ -14,6 +14,34 @@
         {
           "name": "Florida",
           "population": 21538187
+        },
+        {
+          "name": "New York",
+          "population": 20201249
+        },
+        {
+          "name": "Pennsylvania",
+          "population": 13011844
+        },
+        {
+          "name": "Illinois",
+          "population": 12812508
+        },
+        {
+          "name": "Ohio",
+          "population": 11880616
+        },
+        {
+          "name": "Georgia",
+          "population": 10736059
+        },
+        {
+          "name": "North Carolina",
+          "population": 10439388
+        },
+        {
+          "name": "Michigan",
+          "population": 10077331
         }
       ]
     },
@@ -31,6 +59,256 @@
         {
           "name": "Bihar",
           "population": 104099452
+        },
+        {
+          "name": "West Bengal",
+          "population": 91276115
+        },
+        {
+          "name": "Madhya Pradesh",
+          "population": 72626809
+        },
+        {
+          "name": "Tamil Nadu",
+          "population": 72147030
+        },
+        {
+          "name": "Rajasthan",
+          "population": 68548437
+        },
+        {
+          "name": "Karnataka",
+          "population": 61095297
+        },
+        {
+          "name": "Gujarat",
+          "population": 60439692
+        },
+        {
+          "name": "Andhra Pradesh",
+          "population": 49577103
+        }
+      ]
+    },
+    {
+      "name": "China",
+      "states": [
+        {
+          "name": "Guangdong",
+          "population": 126012510
+        },
+        {
+          "name": "Shandong",
+          "population": 100063065
+        },
+        {
+          "name": "Henan",
+          "population": 94023567
+        },
+        {
+          "name": "Sichuan",
+          "population": 80418200
+        },
+        {
+          "name": "Jiangsu",
+          "population": 78659903
+        },
+        {
+          "name": "Hebei",
+          "population": 75584394
+        },
+        {
+          "name": "Hunan",
+          "population": 68986969
+        },
+        {
+          "name": "Anhui",
+          "population": 59500510
+        },
+        {
+          "name": "Hubei",
+          "population": 57237740
+        },
+        {
+          "name": "Zhejiang",
+          "population": 54426891
+        }
+      ]
+    },
+
+    {
+      "name": "Switzerland",
+      "states": [
+        {
+          "name": "Zurich",
+          "population": 1542092
+        },
+        {
+          "name": "Bern",
+          "population": 1034977
+        },
+        {
+          "name": "Lucerne",
+          "population": 409557
+        },
+        {
+          "name": "Uri",
+          "population": 36433
+        },
+        {
+          "name": "Schwyz",
+          "population": 159165
+        },
+        {
+          "name": "Obwalden",
+          "population": 37600
+        },
+        {
+          "name": "Nidwalden",
+          "population": 41892
+        },
+        {
+          "name": "Glarus",
+          "population": 40177
+        },
+        {
+          "name": "Zug",
+          "population": 127634
+        },
+        {
+          "name": "Fribourg",
+          "population": 311914
+        }
+      ]
+    },
+    {
+      "name": "Australia",
+      "states": [
+        {
+          "name": "New South Wales",
+          "population": 8111743
+        },
+        {
+          "name": "Victoria",
+          "population": 6629870
+        },
+        {
+          "name": "Queensland",
+          "population": 5118420
+        },
+        {
+          "name": "Western Australia",
+          "population": 2621680
+        },
+        {
+          "name": "South Australia",
+          "population": 1831692
+        },
+        {
+          "name": "Tasmania",
+          "population": 541071
+        },
+        {
+          "name": "Australian Capital Territory",
+          "population": 431114
+        },
+        {
+          "name": "Northern Territory",
+          "population": 245552
+        },
+        {
+          "name": "Jervis Bay Territory",
+          "population": 405
+        },
+        {
+          "name": "Cocos (Keeling) Islands",
+          "population": 596
+        }
+      ]
+    },
+    {
+      "name": "Brazil",
+      "states": [
+        {
+          "name": "Sao Paulo",
+          "population": 46289333
+        },
+        {
+          "name": "Minas Gerais",
+          "population": 21292666
+        },
+        {
+          "name": "Rio de Janeiro",
+          "population": 17366189
+        },
+        {
+          "name": "Bahia",
+          "population": 14930634
+        },
+        {
+          "name": "Parana",
+          "population": 11516840
+        },
+        {
+          "name": "Rio Grande do Sul",
+          "population": 11422973
+        },
+        {
+          "name": "Pernambuco",
+          "population": 9616621
+        },
+        {
+          "name": "Ceara",
+          "population": 9187103
+        },
+        {
+          "name": "Pará",
+          "population": 8690745
+        },
+        {
+          "name": "Santa Catarina",
+          "population": 7252502
+        }
+      ]
+    },
+    {
+      "name": "South Africa",
+      "states": [
+        {
+          "name": "Gauteng",
+          "population": 12272263
+        },
+        {
+          "name": "KwaZulu-Natal",
+          "population": 11289086
+        },
+        {
+          "name": "Limpopo",
+          "population": 5404868
+        },
+        {
+          "name": "Mpumalanga",
+          "population": 4039939
+        },
+        {
+          "name": "North West",
+          "population": 3509953
+        },
+        {
+          "name": "Free State",
+          "population": 2887453
+        },
+        {
+          "name": "Eastern Cape",
+          "population": 6562053
+        },
+        {
+          "name": "Western Cape",
+          "population": 6491046
+        },
+        {
+          "name": "Northern Cape",
+          "population": 1145861
         }
       ]
     }

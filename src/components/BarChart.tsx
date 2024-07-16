@@ -1,6 +1,5 @@
-// src/components/BarChart.tsx
 import React, { useState, useEffect } from "react";
-import { Bar, Chart } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import worldData from "../data/data.json";
 
 import {
@@ -22,14 +21,6 @@ ChartJS.register(
   Legend
 );
 
-interface ChartData {
-  label: string;
-  data: number[];
-  backgroundColor: string;
-  borderColor: string;
-  borderWidth: number;
-}
-
 interface CountryChartProps {
   isClicked: boolean;
   setIsClicked: (value: boolean) => void;
@@ -41,7 +32,7 @@ const BarChart: React.FC<CountryChartProps> = ({ isClicked, setIsClicked }) => {
 
   const [statesLabel, setStatesLabel] = useState<string[]>([]);
   const [statesPopulation, setStatesPopulation] = useState<number[]>([]);
-  const [index,setIndex] = useState<number>(0);
+  const [index, setIndex] = useState<number>(0);
 
   const data = {
     labels: countriesLabel,
@@ -82,18 +73,32 @@ const BarChart: React.FC<CountryChartProps> = ({ isClicked, setIsClicked }) => {
     },
     onClick: (event: any, elements: any) => {
       if (elements.length > 0) {
-        const {index } = elements[0];
+        const { index } = elements[0];
         const clickedLabel = worldData.countries[index].states.map((obj) => {
           return obj.name;
         });
-        const clickedPopulation = worldData.countries[index].states.map((obj) => {
-          return obj.population;
-        });
+        const clickedPopulation = worldData.countries[index].states.map(
+          (obj) => {
+            return obj.population;
+          }
+        );
         setStatesLabel(clickedLabel);
         setStatesPopulation(clickedPopulation);
         setIsClicked(true);
         setIndex(index);
       }
+    },
+  };
+  const options2 = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: "top" as const,
+      },
+      title: {
+        display: true,
+        text: "Chart.js Bar Chart in React",
+      },
     },
   };
 
@@ -120,7 +125,7 @@ const BarChart: React.FC<CountryChartProps> = ({ isClicked, setIsClicked }) => {
       {statesLabel && isClicked && (
         <div>
           <h2>Selected Data: {countriesLabel[index]}</h2>
-          <Bar data={data2} options={options} />
+          <Bar data={data2} options={options2} />
         </div>
       )}
     </div>
