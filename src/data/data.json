@@ -1,0 +1,38 @@
+{
+  "countries": [
+    {
+      "name": "United States",
+      "states": [
+        {
+          "name": "California",
+          "population": 39538223
+        },
+        {
+          "name": "Texas",
+          "population": 29145505
+        },
+        {
+          "name": "Florida",
+          "population": 21538187
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "states": [
+        {
+          "name": "Uttar Pradesh",
+          "population": 199812341
+        },
+        {
+          "name": "Maharashtra",
+          "population": 112374333
+        },
+        {
+          "name": "Bihar",
+          "population": 104099452
+        }
+      ]
+    }
+  ]
+}
